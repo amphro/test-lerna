@@ -5,8 +5,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install
-          command: npm install
+          name: Install Lerna
+          command: npm install -g lerna
       - run:
           name: Publishing
           command: lerna publish --conventional-commits -y
