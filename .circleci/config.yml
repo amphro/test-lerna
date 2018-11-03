@@ -3,6 +3,9 @@ jobs:
     docker:
       - image: node:latest
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "7b:87:16:a4:5a:39:dc:90:17:bf:b0:6c:be:35:f4:e9"
       - checkout
       - run:
           name: Install Lerna
