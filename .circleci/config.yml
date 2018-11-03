@@ -5,7 +5,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "7b:87:16:a4:5a:39:dc:90:17:bf:b0:6c:be:35:f4:e9"
+            - "fe:ca:ad:97:61:f3:a7:5d:47:eb:3e:83:71:69:ca:bf"
       - checkout
       - run:
           name: Set Github Info
